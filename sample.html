@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>
+		Sample!!!
+		</title>
+	</head>
+
+	<body>
+		<h1>
+			Welcome, Guest!
+		</h1>
+		
+		<hr>
+		
+		<form action="fileupload" method="post" enctype="multipart/form-data">
+			<input type="file" name="filetoupload" accept=".csv">
+			<label>Enter File Name : </label><input type="text" name="FileName" required>
+			<br>
+			<br>
+			<input type="submit">
+		</form>
+		
+		<hr>
+		
+		<form action="filedownload" method="post" enctype="multipart/form-data">
+			<label>Enter File Name To Download from this list : </label><input type="text" name="downfile" required>
+			<br>
+			<input type="submit">
+		</form>
+		
+	</body>
+</html>
